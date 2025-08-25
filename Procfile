@@ -1,1 +1,1 @@
-web: gunicorn retirement_app:app
+web: gunicorn wsgi:app
