@@ -1,0 +1,73 @@
+Build me a retirement planning web application with the following features:
+
+User Inputs
+
+Personal Info
+
+Year of birth (single or couple)
+
+Desired retirement age
+
+Marital status (single / married / couple)
+
+If married: ask if both spouses are working or only one is working
+
+Financial Inputs
+
+Current liquid assets (stock market investments)
+
+Real estate investments (annual net cashflow)
+
+Current annual income (for each working person)
+
+Years worked (for each working person)
+
+Annual contributions until retirement (optional)
+
+Simulation Settings
+
+Market return assumptions (Conservative, Moderate, Aggressive)
+
+Monte Carlo vs deterministic growth option
+
+Budget Breakdown
+
+Housing / mortgage
+
+Healthcare premiums & expenses
+
+Food & living expenses
+
+Travel / leisure
+
+Other discretionary
+
+Retirement Benefits Calculation (Automatic)
+
+Full Retirement Age (FRA): 67 for birth year ≥1960
+
+Early claim (62): ~70–75% of FRA benefit
+
+Late claim (70): ~124–132% of FRA benefit
+
+FRA benefit estimation: ~40% of average annual income × adjustment for years worked
+
+Spousal Rules:
+
+If both working: calculate separately for each, then add.
+
+If only one working: non-working spouse gets up to 50% of working spouse’s FRA benefit, adjusted for early claiming age. (Spousal benefit does not increase with delayed retirement.)
+
+Add benefits as an income stream starting at the claim age in the retirement forecast.
+
+Outputs
+
+Annual forecast table with: Age, Starting balance, Investment gains, Real estate cashflow, Retirement benefits, Spending, Ending balance
+
+Charts:
+
+Portfolio balance over time
+
+Spending breakdown by category
+
+Safe sustainable annual spending estimate
